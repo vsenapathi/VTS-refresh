@@ -11,6 +11,9 @@
 
   font-family: "Poppins", sans-serif;
   src: url(./fonts/Poppins-Regular.ttf) format("truetype");
+
+  font-family: "Poppins thin", sans-serif;
+  src: url(/src/fonts/Poppins-Thin.ttf) format("truetype");
 }
 * {
   box-sizing: border-box;
@@ -30,6 +33,10 @@ body {
 }
 .bg-blue {
   background: var(--brand-blue);
+}
+
+.bg-orange {
+  background: var(--brand-orange);
 }
 
 .current-page {
@@ -138,4 +145,24 @@ h1 {
 .sub-btn:hover {
   color: white;
   background: var(--brand-orange);
+}
+
+.footer ul a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  font-family: "Poppins thin", sans-serif;
+  font-size: 16px;
+}
+
+.footer-link-title,
+.social-icons a {
+  font-size: 24px !important;
+  transition: all 200ms linear;
+  cursor: pointer;
+  color: white !important;
+}
+
+.social-footer i:hover {
+  transform: scale(1.1, 1.1);
 }
