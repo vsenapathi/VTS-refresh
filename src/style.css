@@ -57,3 +57,36 @@ h1 {
   color: var(--brand-orange);
   border: 2px solid var(--brand-orange);
 }
+
+.hero-pic {
+  border-radius: 4px;
+}
+
+.pillars {
+  background: var(--primary-text);
+  color: white;
+  padding: 40px 0;
+}
+.pillars h4 {
+  font-size: 20px;
+}
+.pillars i {
+  color: var(--brand-orange);
+  font-size: 36px;
+  transition: all 200ms linear;
+}
+
+.pillars i:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.title h2 {
+  color: var(--brand-orange);
+  font-size: 48px;
+  font-family: "Playfair Display", serif;
+}
+
+.pillars p {
+  font-size: 14px;
+  opacity: 0.7;
+}
