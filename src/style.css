@@ -92,3 +92,35 @@ h1 {
   font-size: 14px;
   opacity: 0.7;
 }
+
+.newsreel form label {
+  font-size: 14px;
+  color: var(--brand-blue);
+  position: relative;
+  left: 135px;
+  bottom: 30px;
+}
+
+.newsreel h2 {
+  color: var(--brand-blue);
+}
+
+#subscribe-input {
+  border: 1px solid var(--brand-blue);
+}
+
+#subscribe-input::placeholder {
+  font-size: 14px;
+}
+
+.sub-btn {
+  border: 1px solid var(--brand-orange);
+  color: var(--brand-orange);
+  background: rgba(245, 130, 32, 0.3);
+  transition: all 200ms linear;
+}
+
+.sub-btn:hover {
+  color: white;
+  background: var(--brand-orange);
+}
