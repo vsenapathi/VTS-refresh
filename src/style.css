@@ -22,6 +22,21 @@ body {
   font-family: "Poppins", sans-serif !important;
 }
 
+.navbar {
+  padding: 0 !important;
+}
+.logo {
+  max-width: 100px !important;
+}
+.bg-blue {
+  background: var(--brand-blue);
+}
+
+.current-page {
+  color: var(--brand-orange) !important;
+  font-size: 1.05em;
+}
+
 .hero {
   text-align: center;
   padding: 160px 20px;

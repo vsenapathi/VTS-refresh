@@ -9,7 +9,7 @@
       name="Locations"
       content="VT Seva volunteers serve in local communities across the USA, India, UK, Australia, and Tanzania. Find your local branch here!"
     />
-    <link rel="stylesheet" href="src/style.css" />
+    <link rel="stylesheet" href="/src/style.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -23,22 +23,42 @@
     ></script>
   </head>
   <body>
-    <li class="nav-item dropdown">
-      <a
-        class="nav-link dropdown-toggle"
-        href="#"
-        id="navbarDropdownMenuLink"
-        role="button"
-        data-bs-toggle="dropdown"
+    <nav class="navbar navbar-expand-lg navbar-dark bg-blue">
+      <a class="navbar-brand ps-5" href="/index.html"
+        ><img
+          src="/src/images/vts-logo-white.png"
+          alt="VT Seva"
+          class="img-fluid logo"
+      /></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
         aria-expanded="false"
+        aria-label="Toggle navigation"
       >
-        About
-      </a>
-      <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-        <li><a class="dropdown-item" href="#">History</a></li>
-        <li><a class="dropdown-item" href="#">Leadership</a></li>
-        <li><a class="dropdown-item" href="#">Reports</a></li>
-      </ul>
-    </li>
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div
+        class="collapse navbar-collapse justify-content-end pe-5"
+        id="navbarNav"
+      >
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="/child-pages/about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link current-page" href="/child-pages/locations.html"
+              >Locations</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/child-pages/contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
   </body>
 </html>
