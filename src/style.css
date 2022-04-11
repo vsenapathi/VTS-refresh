@@ -67,7 +67,8 @@ h1 {
   color: white;
   padding: 40px 0;
 }
-.pillars h4 {
+.pillars h4,
+.newsreel p {
   font-size: 20px;
 }
 .pillars i {
@@ -86,7 +87,8 @@ h1 {
   font-family: "Playfair Display", serif;
 }
 
-.pillars p {
+.pillars p,
+.newsreel p {
   font-size: 14px;
   opacity: 0.7;
 }
