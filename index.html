@@ -28,13 +28,15 @@
   </head>
 
   <body>
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-blue">
-      <a class="navbar-brand ps-5" href="/index.html"
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-blue">
+      <a class="navbar-brand ps-3" href="/index.html"
         ><img
           src="/src/images/vts-logo-white.png"
           alt="VT Seva"
-          class="img-fluid logo"
+          class="img-fluid"
+          width="100px"
         />
+        <span class="logo-title text-center">VT Seva</span>
       </a>
       <button
         class="navbar-toggler"
@@ -51,7 +53,7 @@
         class="collapse navbar-collapse justify-content-end pe-5"
         id="navbarNav"
       >
-        <ul class="navbar-nav">
+        <ul class="navbar-nav d-flex justify-content-evenly align-items-center">
           <li class="nav-item active">
             <a class="nav-link" href="/child-pages/about.html">About</a>
           </li>
@@ -61,11 +63,35 @@
           <li class="nav-item">
             <a class="nav-link" href="/child-pages/contact.html">Contact</a>
           </li>
+          <li class="nav-item">
+            <a href="/index.html" class="nav-link current-page"
+              >Home <span class="sr-only">(current page)</span></a
+            >
+          </li>
+          <li class="nav-item ps-2">
+            <div class="input-group mw-80">
+              <input
+                type="text"
+                class="form-control rounded-pill-left"
+                placeholder="Search"
+                aria-label="Site Search"
+                aria-describedby="basic-addon2"
+              />
+              <div class="input-group-append">
+                <button class="btn btn-light rounded-pill-right" type="submit">
+                  <i
+                    class="fa-solid fa-magnifying-glass text-orange"
+                    id="search-btn"
+                  ></i>
+                </button>
+              </div>
+            </div>
+          </li>
         </ul>
       </div>
     </nav>
 
-    <div class="hero d-flex flex-column align-items-center container mt-5">
+    <div class="hero d-flex flex-column align-items-center container">
       <div class="row">
         <div class="col-sm-6">
           <img
