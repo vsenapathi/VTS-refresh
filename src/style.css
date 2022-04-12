@@ -29,7 +29,7 @@ body {
   padding: 0 !important;
 }
 .logo {
-  max-width: 50px !important;
+  max-width: 70px !important;
 }
 .bg-blue {
   background: var(--brand-blue);
@@ -40,6 +40,10 @@ body {
 }
 .text-orange {
   color: var(--brand-orange);
+}
+
+.text-blue {
+  color: var(--brand-blue);
 }
 .current-page {
   color: var(--brand-orange) !important;
@@ -54,18 +58,19 @@ body {
   border-radius: 0px 25px 25px 0px !important;
 }
 .form-control:focus {
-  border: white !important;
+  border: 0 !important;
   box-shadow: none !important;
-}
-.input-group:focus-within {
-  border: 2px solid var(--brand-orange) !important;
-  border-radius: 25px;
 }
 
 .btn-light:focus {
   box-shadow: none !important;
+  border: 0 !important;
 }
 
+.input-group:focus-within {
+  border: 2px solid var(--brand-orange) !important;
+  border-radius: 25px;
+}
 .hero {
   text-align: center;
   padding: 160px 20px;
@@ -183,4 +188,26 @@ h1 {
 
 .social-footer i:hover {
   transform: scale(1.1, 1.1);
+}
+
+.wrapper {
+  background: var(--primary-text);
+}
+
+#pillars {
+  position: relative;
+  background: var(--primary-text);
+  color: white;
+  height: 350px;
+}
+
+#pillars-list a {
+  border: 0 !important;
+  background: none;
+  color: white;
+  transition: all 200ms linear;
+}
+
+.active {
+  color: var(--brand-orange) !important;
 }
