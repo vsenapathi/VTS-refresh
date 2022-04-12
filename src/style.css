@@ -80,10 +80,6 @@ h1 {
   border: 2px solid var(--brand-orange);
 }
 
-.hero-pic {
-  border-radius: 4px;
-}
-
 .pillars {
   background: var(--primary-text);
   color: white;
