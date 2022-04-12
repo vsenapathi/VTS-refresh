@@ -1,5 +1,5 @@
 :root {
-  --brand-blue: #32459d;
+  --brand-blue: #1a46cb;
   --brand-orange: #f58220;
   --dark-blue: #303f9f;
   --primary-text: #212121;
@@ -21,7 +21,7 @@
 }
 
 body {
-  color: var(--primary-text);
+  color: var(--primary-text) !important;
   font-family: "Poppins", sans-serif !important;
 }
 
@@ -198,7 +198,7 @@ h1 {
   position: relative;
   background: var(--primary-text);
   color: white;
-  height: 350px;
+  height: 300px;
 }
 
 #pillars-list a {
@@ -210,4 +210,26 @@ h1 {
 
 .active {
   color: var(--brand-orange) !important;
+}
+
+.fa-user {
+  color: var(--brand-blue);
+  background: rgba(96, 138, 255, 0.274);
+  border: 2px solid var(--brand-blue);
+  padding: 5px;
+  border-radius: 50%;
+  font-size: 32px;
+}
+
+.officer-profile a {
+  color: var(--primary-text);
+  display: block;
+}
+
+.officer-profile h5 {
+  color: var(--brand-orange);
+}
+
+.officer-profile p {
+  font-size: 14px;
 }
