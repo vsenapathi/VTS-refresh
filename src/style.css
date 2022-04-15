@@ -233,3 +233,25 @@ h1 {
 .officer-profile p {
   font-size: 14px;
 }
+
+#branchDatalist {
+  width: 200px !important;
+  margin: 0 auto;
+  border: 2px solid var(--brand-orange) !important;
+  transition: all 200ms ease-in-out;
+}
+
+#branchDatalist::placeholder {
+  color: var(--brand-orange);
+  text-align: center;
+}
+
+#branchDatalist:focus {
+  background: var(--brand-orange);
+  color: white;
+}
+
+.datalist {
+  height: 300px;
+  overflow-y: scroll;
+}
